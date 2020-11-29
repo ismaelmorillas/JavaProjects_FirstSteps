@@ -6,7 +6,7 @@ import java.util.Scanner;
 * @author Ismael
 * */
 
-public class EstadosPlaylists {
+public class estados_playlists {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,16 +16,16 @@ public class EstadosPlaylists {
 		int numero;
 	
 		do{
-			System.out.printf("\t\t   ||DESCUBRA UNA PLAYLIST ADECUADA A SU ESTADO AN�MICO ACTUAL|| \n\n");
-			System.out.printf("\n *  DESCUBRA LA PLAYLIST 1 SI EST� NOSTALGICO  *\n");
-			System.out.printf("\n *  DESCUBRA LA PLAYLIST 2 SI EST� MOTIVADO    *\n");
-			System.out.printf("\n *  DESCUBRA LA PLAYLIST 3 SI EST� REFLEXIVO   *\n");
-			System.out.printf("\n *  DESCUBRA LA PLAYLIST 4 SI EST� ENAMORADO   *\n");
-			System.out.printf("\n *  DESCUBRA LA PLAYLIST 5 SI EST� ILUSIONADO  *\n");
-			System.out.printf("\n *   DESCUBRA LA PLAYLIST 6 SI EST� ANIMADO    *\n\n");
-			System.out.printf("\n\t                   || Pulse n�mero 0 para SALIR de la APP. ||\n\n\n");
+			System.out.printf("\t\t   ||DESCUBRA UNA PLAYLIST ADECUADA A SU ESTADO ANIMICO ACTUAL|| \n\n");
+			System.out.printf("\n *  DESCUBRA LA PLAYLIST 1 SI ESTA NOSTALGICO  *\n");
+			System.out.printf("\n *  DESCUBRA LA PLAYLIST 2 SI ESTA MOTIVADO    *\n");
+			System.out.printf("\n *  DESCUBRA LA PLAYLIST 3 SI ESTA REFLEXIVO   *\n");
+			System.out.printf("\n *  DESCUBRA LA PLAYLIST 4 SI ESTA ENAMORADO   *\n");
+			System.out.printf("\n *  DESCUBRA LA PLAYLIST 5 SI ESTA ILUSIONADO  *\n");
+			System.out.printf("\n *   DESCUBRA LA PLAYLIST 6 SI ESTA ANIMADO    *\n\n");
+			System.out.printf("\n\t                   || Pulse numero 0 para SALIR de la APP. ||\n\n\n");
 				
-			System.out.printf("\t\t// INGRESAR N�MERO DE PLAYLIST EN ESTA L�NEA // P L A Y L I S T ");
+			System.out.printf("\t\t// INGRESAR NUMERO DE PLAYLIST EN ESTA LINEA // P L A Y L I S T ");
 			Scanner entrada = new Scanner(System.in);
 			numero = entrada.nextInt();
 		        
@@ -78,7 +78,7 @@ public class EstadosPlaylists {
 		        }
 
 				else if ( numero < 0 || numero == 7 || numero > 7 ) {
-					System.out.printf( "\n  \t\t * E R R O R *  Lo sentimos, a�n no disponemos de tantas playlists." );
+					System.out.printf( "\n  \t\t * E R R O R *  Lo sentimos, aun no disponemos de tantas playlists." );
 					System.out.printf( "\n  \t\t    Ingrese un valor entre 1 y 6, y le mostraremos una playlist.\n\n\n" );
 				}
 		        
