@@ -6,7 +6,7 @@ import java.util.Scanner;
 * @author Ismael
 * */
 
-public class estados_playlists {
+public class estado_anímico_playlists {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
